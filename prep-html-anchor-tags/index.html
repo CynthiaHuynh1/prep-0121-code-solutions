@@ -6,6 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anchor Tags</title>
   <style>
+   .button {
+      background-color: dodgerblue;
+      border-radius: 8px;
+      color: white;
+      padding: 7px 20px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+    }
+    .button:hover {
+      background-color:skyblue;
+      color: white;
+    }
     #container,
     img {
       width: 50%;
@@ -21,10 +35,10 @@
 <body>
   <nav>
     <ul>
-      <li><a href="#container">Home</a></li>
-      <li><a href="#about-me">About Me</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact-us">Contact Us</a></li>
+      <li><a href="#container" class="button">Home</a></li>
+      <li><a href="#about-me" class="button">About Me</a></li>
+      <li><a href="#blog" class="button">Blog</a></li>
+      <li><a href="#contact-us" class="button">Contact Us</a></li>
     </ul>
   </nav>
   <div id="container">
